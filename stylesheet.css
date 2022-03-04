@@ -1,0 +1,158 @@
+html, body, div { margin: 0; padding: 0; border: 0 none; }
+
+.wrap { 
+    white-space: nowrap;
+    max-width: 99%;
+    margin: 0 auto;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;  
+}
+
+.content { 
+    white-space: nowrap;
+    max-width: 99%;
+    margin: 0 auto;  
+}
+
+.Absolute-Center {
+  margin: auto;
+  position: absolute;
+  top: 0; left: 0; bottom: 0; right: 0;
+}
+
+
+.element1 {
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+    width: 33%;                     /* poor approximation for old browsers    */
+    width: calc(33% - 8px);         /* standards-based answer for IE9+, FF16+ */
+    width: -moz-calc(33% - 8px);    /* support for FF4 - FF15                 */
+    width: -webkit-calc(33% - 8px); /* support for Chrome19+ and Safari6+     */
+    min-width: 350px;
+    white-space: nowrap;
+}
+
+.element2 {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    width: 20%;                     /* poor approximation for old browsers    */
+    width: calc(20% - 8px);         /* standards-based answer for IE9+, FF16+ */
+    width: -moz-calc(20% - 8px);    /* support for FF4 - FF15                 */
+    width: -webkit-calc(20% - 8px); /* support for Chrome19+ and Safari6+     */
+    min-width: 100px;
+    white-space: normal;
+}
+
+.element3 {
+    display: inline-block;
+    vertical-align: middle;
+    width: 89%;                     /* poor approximation for old browsers    */
+    width: calc(90% - 8px);         /* standards-based answer for IE9+, FF16+ */
+    width: -moz-calc(90% - 8px);    /* support for FF4 - FF15                 */
+    width: -webkit-calc(90% - 8px); /* support for Chrome19+ and Safari6+     */
+    white-space: normal;
+}
+
+.element4 {
+    display: inline-block;
+    width: 19%;                     /* poor approximation for old browsers    */
+    width: calc(20% - 8px);         /* standards-based answer for IE9+, FF16+ */
+    width: -moz-calc(20% - 8px);    /* support for FF4 - FF15                 */
+    width: -webkit-calc(20% - 8px);
+    white-space: normal;
+}
+
+
+#over img {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    min-width: 600px;
+}
+
+h1 { 
+
+	font-family: "Arial", sans-serif;
+    font-size: 2em;
+    margin:0px;
+    font-weight: bold;
+}
+
+h2 { 
+    display: inline-block;
+	font-family: "Arial", sans-serif;
+    font-size: 30px;
+    margin: auto;
+    font-weight: bold;
+}
+
+h3 { 
+    display: inline-block;
+    font-family: "Arial", sans-serif;
+    font-size: 18px;
+    margin: auto;
+    font-weight: lighter;
+}
+
+h4 { 
+    display: inline-block;
+    font-family: "Arial", sans-serif;
+    font-size: 1em;
+    margin: auto;
+    font-weight: bold;
+    color: black;
+}
+
+h5 { 
+    display: inline-block;
+    font-family: "Arial", sans-serif;
+    font-size: 17px;
+    margin: auto;
+    font-weight: lighter;
+}
+
+h6 { 
+    display: inline-block;
+    font-family: "Arial", sans-serif;
+    font-size: 16px;
+    margin: auto;
+    font-weight: lighter;
+}
+
+a.one {
+    color: black;
+    text-decoration: none;
+}
+
+a.one:hover{
+    text-decoration: underline;
+}
+
+a.two {
+    color: black;
+    text-decoration: none;
+}
+
+a.two:hover{
+    text-decoration: underline;
+}
+
+.alignleft{
+    float:left;
+    display: inline-block;
+    font-family: 'Arial', sans-serif;
+    margin: auto;
+    font-weight: lighter;
+}
+
+.alignright{
+    float:right;
+    display: inline-block;
+    font-family: 'Arial', sans-serif;
+    margin: auto;
+    font-weight: lighter;
+}

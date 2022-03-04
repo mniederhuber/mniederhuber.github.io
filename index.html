@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<HTML>
+<Head>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+<script language="javascript"> 
+function toggle1() {
+	var ele1 = document.getElementById("toggleText1");
+	var ele2 = document.getElementById("toggleText2");
+//	var ele3 = document.getElementById("toggleText3");
+	var ele4 = document.getElementById("toggleText4");
+	if(ele1.style.display == "inline-block") {
+    	ele1.style.display = "none";
+  	}
+	else {
+		if(ele2.style.display == "inline-block") {
+			ele2.style.display = "none";
+		}	
+//		if(ele3.style.display == "inline-block") {
+//			ele3.style.display = "none";
+//		}
+		if(ele4.style.display == "inline-block") {
+			ele4.style.display = "none";
+		}	
+		ele1.style.display = "inline-block";
+		ele1.style.width = '40%';
+		ele1.style.minWidth = "90%";
+		ele1.style.marginLeft = '40%';
+		ele1.style.marginRight = '20%'
+	}
+} 
+function toggle2() {
+	var ele1 = document.getElementById("toggleText1");
+	var ele2 = document.getElementById("toggleText2");
+//	var ele3 = document.getElementById("toggleText3");
+	var ele4 = document.getElementById("toggleText4");
+	if(ele2.style.display == "inline-block") {
+    	ele2.style.display = "none";
+  	}
+	else {
+//		if(ele3.style.display == "inline-block") {
+//			ele3.style.display = "none";
+//		}	
+		if(ele1.style.display == "inline-block") {
+			ele1.style.display = "none";
+		}
+		if(ele4.style.display == "inline-block") {
+			ele4.style.display = "none";
+		}	
+		ele2.style.display = "inline-block";
+		ele2.style.width = '40%';
+		ele2.style.minWidth = "90%";
+		ele2.style.marginLeft = '30%';
+		ele2.style.marginRight = '30%';
+	}
+} 
+//function toggle3() {
+//	var ele1 = document.getElementById("toggleText1");
+//	var ele2 = document.getElementById("toggleText2");
+//	var ele3 = document.getElementById("toggleText3");
+//	var ele4 = document.getElementById("toggleText4");
+//	if(ele3.style.display == "inline-block") {
+//    	ele3.style.display = "none";
+//  	}
+//	else {
+//		if(ele1.style.display == "inline-block") {
+//			ele1.style.display = "none";
+//		}	
+//		if(ele2.style.display == "inline-block") {
+//			ele2.style.display = "none";
+//		}
+//		if(ele4.style.display == "inline-block") {
+//			ele4.style.display = "none";
+//		}	
+//		ele3.style.display = "inline-block";
+//		ele3.style.width = '70%';
+//		ele3.style.minWidth = "90%";
+//		ele3.style.marginLeft = '15%';
+//		ele3.style.marginRight = '15%';
+//	}
+//} 
+function toggle4() {
+	var ele1 = document.getElementById("toggleText1");
+	var ele2 = document.getElementById("toggleText2");
+//	var ele3 = document.getElementById("toggleText3");
+	var ele4 = document.getElementById("toggleText4");
+	if(ele4.style.display == "inline-block") {
+    	ele4.style.display = "none";
+  	}
+	else {
+		if(ele1.style.display == "inline-block") {
+			ele1.style.display = "none";
+		}	
+		if(ele2.style.display == "inline-block") {
+			ele2.style.display = "none";
+		}
+//		if(ele3.style.display == "inline-block") {
+//			ele3.style.display = "none";
+//		}
+		ele4.style.display = "inline-block";
+		ele4.style.width = '70%';			
+		ele4.style.minwidth = '90%';
+		ele4.style.marginLeft = '15%';
+		ele4.style.marginRight = '15%';
+	}
+} 
+</script>
+</Head>
+<body bgcolor="#EDEEEF">
+<div class="wrap">
+	<div class="element1">
+		<br>
+		<img src="Nub_CLEANER.png" width = "300px">
+		<br>
+		<br>
+		<h1>Matt_Niederhuber </h1> 
+		<br>
+		<h3>
+						PhD Candidate | NSF Fellow 
+						<br> 
+		<a class="one" href="http://mckaylab.web.unc.edu/">McKay Lab</a>
+		<br>
+		University of North Carolina Chapel Hill
+		<br>
+		<br>
+		mniederhuber (at) unc (dot) edu
+		<br>
+		<a class="one" href="https://twitter.com/MattNiederhuber"> @MattNiederhuber</a>
+		<!-- <br>
+		blog:
+		<br>
+		Matt_Niederhuber<b><a class="one" href="https://www.mattniederhuber.com/jargon">.jargon</a></b>
+		-->
+		</h3>
+	</div>
+	<div class="element2">
+		<h2> <a class="one" href="javascript:toggle1();"><br><br>.writing</a>
+	</div>
+	<div class="element2">
+		<h2> <a class="one" href="javascript:toggle2();"><br><br>.research</a>
+		</h2>
+	</div>
+	<div class="element2">
+		<h2> <a class="one" href="javascript:toggle4();"><br><br>.cv</a>
+		</h2>
+	</div>
+	<!--
+	<div class="element2">
+		<h2> <a class="one" href="javascript:toggle3();"><br><br>.contact</a>
+		</h2>
+	</div>
+	-->
+
+</div>
+<div class="content">
+	<div class="element3">
+		<div id="toggleText1" style="display: none;">
+			<div id="over">
+			<h6>
+				<a class="two" href="http://ncdnaday.org/2018/02/why-cant-humans-hibernate/" target="_blank"><b>Why Can't Humans Hibernate?</b></a>
+				<br>
+				North Carolina DNA Day Blog, 2018.
+			<br>
+
+			<br>
+				<a class="two" href="http://blog.addgene.org/cutrun-a-improved-method-for-studying-protein-dna-interactions" target="_blank"><b> CUT&RUN: A Improved Method for Studying Protein-DNA Interactions.</b></a>
+				<br>
+				Addgene Blog, 2018.	
+			<br>
+					
+			<br>	
+				<a class="two" href="http://ncdnaday.org/2018/01/how-to-copy-dna-the-invention-of-the-polymerase-chain-reaction/" target="_blank"><b> How to Copy DNA: The Invention of the Polymerase Chain Reaction. </b></a>
+				<br>
+				North Carolina DNA Day Blog, 2018.
+			<br>
+			
+			<br>
+				<a class="two" href="http://www.thepipettepen.com/blog/house-tax-bill-could-lead-to-significant-tax-increase-for-unc-grad-students/" target="_blank"><b> House Tax Bill Could Lead to Significant Tax Increase for UNC Grad Students. </b></a>
+				<br>
+				The Pipettepen, 2017.
+			<br>
+
+			<br>	
+				<a class="two" href="http://thenode.biologists.com/making-time-matter-hormone-pulses-direct-chromatin-accessibility-development/research/" target="_blank"><b> Making Time Matter: How Hormone Pulses Direct Chromatin Accessibility During Development. </b></a>
+				<br>
+				The Node, 2017.	
+			<br>
+			
+			<br>
+				<a class="two" href="http://www.thepipettepen.com/blog/the-march-for-science-raises-concerns-over-politicization/" target="_blank"><b>The March for Science Raises Concerns Over Politicization. </b></a> 
+				<br>
+				The Pipettepen, 2017.
+			<br>	
+			
+			<br>	
+				<a class="two" href="http://www.thepipettepen.com/blog/bionic-plants-detect-explosive-chemicals/" target="_blank"><b>Bionic Plants Detect Explosive Chemicals.</b></a> 
+				<br>
+				The Pipettepen, 2016.
+			<br>
+			
+			<br>
+				<a class="two" href="http://sitn.hms.harvard.edu/flash/2015/insecticidal-plants/" target="_blank"><b>Insecticidal Plants: The Tech and Safety of GM Bt Crops.</b></a>
+				<br>
+				Harvard University: Science in the News, 2015.
+			<br>
+			
+			<br>
+				<a class="two" href="http://sitn.hms.harvard.edu/flash/2015/the-human-microbiome-and-media-confusion/" target="_blank"><b>The Human Microbiome and Media Confusion.</b></a>
+				<br>
+				Harvard University: Science in the News, 2014.
+			<br>
+			
+			<br>
+				<a class="two" href="http://sitn.hms.harvard.edu/flash/special-edition-on-infectious-disease/2014/the-fight-over-inoculation-during-the-1721-boston-smallpox-epidemic/" target="_blank"><b>The Fight Over Inoculation During the 1721 Boston Smallpox Epidemic.</b></a> 
+				<br>
+				Harvard University: Science in the News, 2014.
+			<br>
+			
+			<br>
+				<a class="two" href="http://www.popsci.com.au/science/yes-this-exists-a-biohacker-hotline,380029" target="_blank"><b>Yes, This Exists: A Biohacker Hotline</b></a>
+				<br>
+				Popular Science, 2013.
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			</h6>
+			</div>
+		</div>		
+		<div id="toggleText2" style="display: none;">
+			<div id="over">
+			<h5>
+				<b> 2017 </b>
+				<br>
+				<br>
+				<b>Niederhuber MJ</b>, Lambert TJ, Yapp C, Silver PA, Polka JK. (2017). 
+				<br>
+				<a class = "two" href="http://www.molbiolcell.org/content/28/20/2734" target="_blank"> Superresolution microscopy of the beta-carboxysome reveals a homogenous matrix. </a> <i> MBoC. </i>
+				<br>
+				<br>
+				Uyehara CM, Nystrom SL, <b>Niederhuber MJ</b>, Leatham-Jensen M, Ma Y, Buttitta LA, McKay DJ. (2017).
+				<br>
+				<a class="two" href="http://genesdev.cshlp.org/content/early/2017/05/23/gad.298182.117.short?rss=1" target="_blank"> Hormone-dependent control of developmental timing through regulation of chromatin accessibility.</a><i>Genes and Development</i>.
+				<br>
+				<br>	
+				Riglar DT, Giessen TW, Baym M, Kerns JS, <b>Niederhuber MJ</b>, Bronson RT, Kotula JW, Gerber GK, Way JC, Silver PA. (2017).
+				<br>
+				<a class="two" href="http://www.nature.com/nbt/journal/vaop/ncurrent/full/nbt.3879.html" target="_blank"> Engineered bacteria can function in the mammalian gut long-term as live diagnostics of inflammation.</a> <i>Nature Biotechnology</i>.
+			</h5>
+			</div>
+		</div>	
+		<div id="toggleText4" style="display: none; margin-bottom:100px;">
+			<div id="over">
+			<img src="PublicImages/CV-01.png", width = "50%", sytle="margin: 0 auto;"></img>
+			</div>
+ 		</div>	
+	</div>
+</div>
+</body>
+<
